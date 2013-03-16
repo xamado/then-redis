@@ -1,0 +1,54 @@
+Client count: 5, node version: 0.10.0, server version: 2.9.7, parser: javascript
+         PING,     1/5 min/max/avg/p95:    0/   5/   0.10/   1.00   2094ms total,  9551.10 ops/sec
+         PING,    50/5 min/max/avg/p95:    0/   8/   1.98/   3.00    796ms total, 25125.63 ops/sec
+         PING,   200/5 min/max/avg/p95:    1/  14/   6.99/  12.00    702ms total, 28490.03 ops/sec
+         PING, 20000/5 min/max/avg/p95:   52/ 581/ 329.40/ 543.10    592ms total, 33783.78 ops/sec
+SET small str,     1/5 min/max/avg/p95:    0/   3/   0.11/   1.00   2239ms total,  8932.56 ops/sec
+SET small str,    50/5 min/max/avg/p95:    0/   5/   1.94/   3.00    780ms total, 25641.03 ops/sec
+SET small str,   200/5 min/max/avg/p95:    0/  15/   7.35/  12.00    738ms total, 27100.27 ops/sec
+SET small str, 20000/5 min/max/avg/p95:   41/ 598/ 330.41/ 542.00    605ms total, 33057.85 ops/sec
+SET small buf,     1/5 min/max/avg/p95:    0/   4/   0.19/   1.00   3885ms total,  5148.01 ops/sec
+SET small buf,    50/5 min/max/avg/p95:    0/  15/   6.79/  11.00   2722ms total,  7347.54 ops/sec
+SET small buf,   200/5 min/max/avg/p95:    0/  55/  27.13/  44.00   2726ms total,  7336.76 ops/sec
+SET small buf, 20000/5 min/max/avg/p95:  137/2890/1527.15/2730.55   2899ms total,  6898.93 ops/sec
+GET small str,     1/5 min/max/avg/p95:    0/   4/   0.10/   1.00   2144ms total,  9328.36 ops/sec
+GET small str,    50/5 min/max/avg/p95:    0/   5/   2.23/   4.00    896ms total, 22321.43 ops/sec
+GET small str,   200/5 min/max/avg/p95:    1/  17/   8.44/  14.00    848ms total, 23584.91 ops/sec
+GET small str, 20000/5 min/max/avg/p95:   40/ 647/ 348.46/ 585.00    662ms total, 30211.48 ops/sec
+GET small buf,     1/5 min/max/avg/p95:    0/   3/   0.10/   1.00   2148ms total,  9310.99 ops/sec
+GET small buf,    50/5 min/max/avg/p95:    0/   5/   2.24/   4.00    898ms total, 22271.71 ops/sec
+GET small buf,   200/5 min/max/avg/p95:    1/  17/   8.42/  14.00    845ms total, 23668.64 ops/sec
+GET small buf, 20000/5 min/max/avg/p95:   48/ 597/ 331.91/ 546.00    623ms total, 32102.73 ops/sec
+SET large str,     1/5 min/max/avg/p95:    0/   1/   0.11/   1.00   2180ms total,  9174.31 ops/sec
+SET large str,    50/5 min/max/avg/p95:    0/   5/   2.07/   4.00    831ms total, 24067.39 ops/sec
+SET large str,   200/5 min/max/avg/p95:    0/  17/   7.86/  14.00    790ms total, 25316.46 ops/sec
+SET large str, 20000/5 min/max/avg/p95:   85/ 862/ 495.59/ 818.55    871ms total, 22962.11 ops/sec
+SET large buf,     1/5 min/max/avg/p95:    0/   2/   0.19/   1.00   3888ms total,  5144.03 ops/sec
+SET large buf,    50/5 min/max/avg/p95:    0/  15/   6.79/  11.00   2722ms total,  7347.54 ops/sec
+SET large buf,   200/5 min/max/avg/p95:    0/  65/  28.72/  48.00   2887ms total,  6927.61 ops/sec
+SET large buf, 20000/5 min/max/avg/p95:  156/2822/1506.12/2664.65   2834ms total,  7057.16 ops/sec
+GET large str,     1/5 min/max/avg/p95:    0/   9/   0.11/   1.00   2302ms total,  8688.10 ops/sec
+GET large str,    50/5 min/max/avg/p95:    0/   8/   2.58/   5.00   1034ms total, 19342.36 ops/sec
+GET large str,   200/5 min/max/avg/p95:    0/  24/  10.37/  20.00   1042ms total, 19193.86 ops/sec
+GET large str, 20000/5 min/max/avg/p95:  354/ 573/ 468.05/ 539.00    890ms total, 22471.91 ops/sec
+GET large buf,     1/5 min/max/avg/p95:    0/   3/   0.11/   1.00   2278ms total,  8779.63 ops/sec
+GET large buf,    50/5 min/max/avg/p95:    0/  15/   2.55/   5.00   1024ms total, 19531.25 ops/sec
+GET large buf,   200/5 min/max/avg/p95:    0/  35/  10.58/  20.00   1062ms total, 18832.39 ops/sec
+GET large buf, 20000/5 min/max/avg/p95:  328/ 646/ 497.46/ 597.00    931ms total, 21482.28 ops/sec
+         INCR,     1/5 min/max/avg/p95:    0/   4/   0.10/   1.00   2137ms total,  9358.91 ops/sec
+         INCR,    50/5 min/max/avg/p95:    0/   7/   1.94/   3.00    777ms total, 25740.03 ops/sec
+         INCR,   200/5 min/max/avg/p95:    0/  15/   7.51/  13.00    755ms total, 26490.07 ops/sec
+         INCR, 20000/5 min/max/avg/p95:   57/ 622/ 339.45/ 561.00    632ms total, 31645.57 ops/sec
+        LPUSH,     1/5 min/max/avg/p95:    0/   1/   0.10/   1.00   2135ms total,  9367.68 ops/sec
+        LPUSH,    50/5 min/max/avg/p95:    0/   5/   2.01/   4.00    807ms total, 24783.15 ops/sec
+        LPUSH,   200/5 min/max/avg/p95:    1/  20/   8.38/  15.00    841ms total, 23781.21 ops/sec
+        LPUSH, 20000/5 min/max/avg/p95:   49/ 724/ 406.34/ 676.00    735ms total, 27210.88 ops/sec
+    LRANGE 10,     1/5 min/max/avg/p95:    0/   3/   0.12/   1.00   2378ms total,  8410.43 ops/sec
+    LRANGE 10,    50/5 min/max/avg/p95:    0/   6/   2.93/   5.00   1174ms total, 17035.78 ops/sec
+    LRANGE 10,   200/5 min/max/avg/p95:    1/  28/  11.31/  19.00   1136ms total, 17605.63 ops/sec
+    LRANGE 10, 20000/5 min/max/avg/p95:  104/ 805/ 457.62/ 724.00    848ms total, 23584.91 ops/sec
+   LRANGE 100,     1/5 min/max/avg/p95:    0/   1/   0.18/   1.00   3733ms total,  5357.62 ops/sec
+   LRANGE 100,    50/5 min/max/avg/p95:    1/  16/   6.14/  11.00   2460ms total,  8130.08 ops/sec
+   LRANGE 100,   200/5 min/max/avg/p95:    1/  63/  24.08/  44.00   2416ms total,  8278.15 ops/sec
+   LRANGE 100, 20000/5 min/max/avg/p95:  628/2213/1687.80/2103.00   2679ms total,  7465.47 ops/sec
+End of tests.
