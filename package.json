@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "when": "2.0.x",
-    "hiredis": "0.1.15"
+    "hiredis": "http://github.com/koenvandesande/hiredis/tarball/master"
   },
   "devDependencies": {
     "mocha": "1.8.1",
