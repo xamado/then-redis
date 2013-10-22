@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "when": "2.0.x",
-    "hiredis": "https://github.com/fuwaneko/hiredis-node/tarball/master"
+    "hiredis": "http://github.com/xamado/hiredis-node/tarball/master"
   },
   "devDependencies": {
     "mocha": "1.8.1",
